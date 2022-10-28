@@ -15,7 +15,8 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
 
-    implementation("org.slf4j:slf4j-simple:2.0.3")
+    implementation("org.slf4j:slf4j-api:2.0.3")
+    implementation("ch.qos.logback:logback-classic:1.4.4")
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
