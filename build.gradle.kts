@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "explode"
-version = "1"
+version = "1.1"
 
 repositories {
     mavenCentral()
